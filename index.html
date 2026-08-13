@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <style>
+          html{
+              color:lightgreen;
+              background-color:green;
+          }
+          
+.spinning-circle-image {
+  /* Step 1: Make it a perfect square */
+  width: 200px;
+  height: 200px;
+  
+  /* Step 2: Crop it into a circle */
+  border-radius: 50%;
+  
+  /* Step 3: Prevent distortion if the original image isn't square */
+  object-fit: cover;
+  
+  /* Step 4: Apply the spin animation */
+  animation: spin 3s linear infinite;
+}
 
+/* Step 5: Define the 360-degree rotation path */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+a{
+    color:red;
+}
+button{
+    color:green;
+    background-color:lightgreen;
+}
+</style>
+    <title>Entrapta's Website</title>
+  </head>
+  <body>
+      <center>
+          <h1>Entrapta's Scientific Website :3</h1>
+     --------------------------
+     
+          <nav>
+              <a href="" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;"> The Real Deal</a>
+     </nav>
+     -------------------------
+    <center>
+<h3>This website is about providing scientific knowledge to curious students</h3>
+<h1> ABOUT US...</h1>
+<p>I got a random idea and I decided to actually do it :p</p>
+      <image class = "spinning-circle-image" src = "https://raw.githubusercontent.com/The-Space-Outlaws/atomic-s-webpage/refs/heads/main/assets/imgs/IMG_0286.gif"></image>
+      </center>
+      </center>
+        
+  </body>
